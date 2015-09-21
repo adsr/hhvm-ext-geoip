@@ -8,4 +8,4 @@ fi
 
 export TEST_PHP_EXECUTABLE=$0
 
-${HPHP_HOME}/hphp/hhvm/hhvm --php -z ${DIRNAME}/geoip.so $@
+hhvm --php -z ${DIRNAME}/geoip.so $@
